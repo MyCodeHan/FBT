@@ -96,10 +96,12 @@
 .header-top .outer-box{
     position: relative;
     display: block;
+    
 }
 .header-top_right {
     position: relative;
     display: block;
+    transform: scale(1.5s);
 }
 .header-social-link-1{
     position: relative;
