@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="assets/css/rtl.css">
 	<link rel="stylesheet" href="assets/css/scrollbar.css">
 
+	<link rel="stylesheet" href="assets/css/bxslider.css">
+
     <!-- Module css -->
     <link rel="stylesheet" href="assets/css/module-css/header-section.css">
 	<link rel="stylesheet" href="assets/css/module-css/banner-section.css">
@@ -80,16 +82,17 @@
 <!-- Main header-->
 <header class="main-header header-style-three">
     <!--Start Header--> 
-    <div class="header-three clearfix">
-        <div class="auto-container clearfix">
-            <div class="outer-box clearfix">
-                <div class="header-three_left">
-
+    <div class="header">
+        <div class="container">
+            <div class="outer-box">
+                <div class="header-left">
                     <div class="logo">
-                    <a href="index.html"><img src="assets/images/resources/logo.png" alt="Awesome Logo" title=""width="200" height="50"></a>
+                        <a href="index.html"><img src="assets/images/resources/logo.png" alt="Awesome Logo" title=""width="200" height="50"></a>
                     </div>
+                </div>
 
-                    <div class="nav-outer style3 clearfix">
+                <div class="header-right">
+                    <div class="nav-outer style1 clearfix">
                         <!--Mobile Navigation Toggler-->
                         <div class="mobile-nav-toggler">
                             <div class="inner">
@@ -102,37 +105,31 @@
                         <nav class="main-menu style1 navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix scroll-nav">
-                                    <li><a href="#banner">Home</a></li>
-                                    <li><a href="#about">About Us</a></li>
-                                    <li><a href="#services">Program Expos</a></li>
-                                    <li><a href="#news">Podcast</a></li>
-                                    <li><a href="#contact">Contact Us</a></li>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.html#about"target="_blank">About Us</a></li>
+                                    <li><a href="index.html#programs"target="_blank">Programs</a></li>
+                                    <li><a href="index.html#podcast"target="_blank">Podcast</a></li>
+                                    <li><a href="index.html#contact"target="_blank">Contact Us</a></li>
                                     </li>
                                 </ul>
                             </div>
                         </nav>                        
                         <!-- Main Menu End-->
                     </div> 
+
                 </div>
 
                 <div class="header-three_right">
                     <div class="header-contact-info">
                         <div class="icon">
-                            <img src="assets/images/icon/chat.png" alt="">
+                            <a href="#podcast">
+                                <img src="assets/images/icon/chat.png" alt="">
+                            </a>
                         </div>
-                        <!-- <div class="title">
-                            <h5>The TRECC <br>Industry Podcast</h5>
-                            <h3><a href="tel:+11987654321">+222 666 00 55</a></h3>
-                        </div> -->
+                        <div class="title">
+                            <h5><h5>The TRECC <br>Industry Podcast</h5></h5>
+                        </div>
                     </div>
-
-                    <!-- <div class="btns-box">
-                        <a class="btn-one" href="contact.html">
-                            <div class="border_line"><img src="assets/images/shape/button-border.png" alt=""></div>
-                            <span class="txt">Contact With Us<i class="flaticon-plus-1 plusicon"></i></span>
-                        </a>
-                    </div> -->
-
                 </div>
 
             </div>
@@ -146,8 +143,7 @@
             <div class="clearfix">
                 <!--Logo-->
                 <div class="logo float-left">
-                    <a href="index.html" class="img-responsive"><img src="assets/images/resources/logo.png" alt="" title=""width="175" height="50"></a>
-                    
+                    <a href="index.html" class="img-responsive"><img src="assets/images/resources/sticky-logo.png" alt="" title=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="right-col float-right">
@@ -183,18 +179,18 @@
 
 
 <!--Start breadcrumb area-->     
-<section class="breadcrumb-area breadcrumb-area-style2">
-    <img class="breadcrumb-area-bg" style="background-image: url(assets/images/breadcrumb/breadcrumb-2.jpg);"></img>
+<section class="breadcrumb-area">
+    <div class="breadcrumb-area-bg" style="background-image: url(assets/images/breadcrumb/breadcrumb-1.jpg);"></div>
     <div class="breadcrumb-social-link">
         <ul class="clearfix">
-            <li class="wow slideInUp" data-wow-delay="700ms" data-wow-duration="2000ms">
+            <li class="wow slideInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
                 <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
             </li>
-            <li class="wow slideInUp" data-wow-delay="900ms" data-wow-duration="1000ms">
-                <a href="#"><i class="fa fa-utube" aria-hidden="true"></i></a>
+            <li class="wow slideInUp" data-wow-delay="700ms" data-wow-duration="2000ms">
+                <a href="#"><i class="fa fa-utube" aria-hidden="true"></i></a> 
             </li>
-            <li class="wow slideInUp" data-wow-delay="1100ms" data-wow-duration="2100ms">
-                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+            <li class="wow slideInUp" data-wow-delay="900ms" data-wow-duration="1000ms">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>
@@ -204,12 +200,7 @@
             <div class="col-xl-12">
                 <div class="inner-content paroller text-center">
                     <div class="title">
-                        <h2>Energy Portfolio</h2>
-                    </div>
-                    <div class="breadcrumb-menu">
-                        <!-- <ul>
-                            <li><a href="index.html">Back To Home<span class="flaticon-plus"></span></a></li>
-                        </ul>     -->
+                        <h2>Portfolio Details</h2>
                     </div>
                 </div>
             </div>
@@ -218,193 +209,116 @@
 </section>
 <!--End breadcrumb area-->
 
-<!--Start Service Details Area-->
-<section class="service-details-area">
+
+<!--Start Portfolio Details Area-->
+<section class="portfolio-details-area">
     <div class="container">
+        
         <div class="row">
             <div class="col-xl-12">
-                <div class="service-deails-box">
-                    <div class="shape1"><img src="assets/images/shape/thm-shape-5.png" alt=""></div>
-                    <div class="bg-shape"></div>
-                    <div class="service-details-content-box">
-                        <div class="icon">
-                            <img src="assets/images/icon/services/service-v2-1.png" alt="">
+                <div class="portfolio-details_content">
+
+                    <div class="portfolio-details_image-box clearfix">
+                        <div class="portfolio-main-image-box">
+                            <ul class="bxslider">
+                                <li>
+                                    <div class="single-box clearfix">
+                                        <div class="img-holder">
+                                            <img src="assets/images/portfolio/portfolio-details-1.jpg" alt="Awesome Image">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-box clearfix">
+                                        <div class="img-holder">
+                                            <img src="assets/images/portfolio/portfolio-details-2.jpg" alt="Awesome Image">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="single-box clearfix">
+                                        <div class="img-holder">
+                                            <img src="assets/images/portfolio/portfolio-details-3.jpg" alt="Awesome Image">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>  
                         </div>
-                        <div class="text">
-                            <h3>Technology Workforce Certifications <br>& Job Placement Expos</h3>
-                            <div class="inner-text">
-                                <p>An immersive 3-month technology certification program that prepares youth, adults, and participants to earn at minimum $60k and up salary with benefits with a top ten fortune 500 company upon completion. Participants will learn basics of computer hardware, software, cyber security and emerging technologies.  
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="service-details-image-box">
-                        <img src="assets/images/resources/service-details-1.jpg" alt="">
+                        <div class="slider-pager">
+                            <ul class="thumb-box">
+                                <li>
+                                    <a class="active" data-slide-index="0" href="#">
+                                        <div class="thumb-image">
+                                            <img src="assets/images/portfolio/portfolio-details-1-thumb.jpg" alt="Awesome Thumb Image">    
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="1" href="#">
+                                        <div class="thumb-image">
+                                            <img src="assets/images/portfolio/portfolio-details-2-thumb.jpg" alt="Awesome Thumb Image">   
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a data-slide-index="2" href="#">
+                                        <div class="thumb-image">
+                                            <img src="assets/images/portfolio/portfolio-details-3-thumb.jpg" alt="Awesome Thumb Image">    
+                                        </div>    
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>    
                     </div>
                     
 
-                </div>
-            </div>
-        </div>
-
-        <div class="service-deails-bottom-box">
-            <div class="row">
-                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                    <div class="single-support-box">
-                        <div class="inner-box">
-                            <div class="icon">
-                                <span class="flaticon-chat"></span>
-                            </div>
-                            <div class="title">
-                                <h2>Quick Enquiry</h2>
-                                <p>For queries or ticket genr cannot find answer.</p>
-                            </div>
+                    <div class="portfolio-details-text-box">
+                        <div class="top-title">
+                            <h5><button data-tf-popup="JWaYycRu" data-tf-opacity="100" data-tf-hide-headers data-tf-size="100" data-tf-iframe-props="title=FBT General Registration" data-tf-transitive-search-params data-tf-medium="snippet" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#FBCE37;color:#000;font-size:25px;border-radius:31px;padding:0 41px;font-weight:bold;height:62.5px;cursor:pointer;line-height:62.5px;text-align:center;margin:0;text-decoration:none;">*Register Here*</button><script src="//embed.typeform.com/next/embed.js"></script></h5>
+                            <h2>Renewable Energy <br> Workforce Development Expo</h2>
+                            
                         </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                    <div class="single-support-box martop30">
-                        <div class="inner-box">
-                            <div class="icon">
-                                <span class="flaticon-headphones"></span>
-                            </div>
-                            <div class="title">
-                                <h2>Support Forum</h2>
-                                <p>For queries or ticket genr cannot find answer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</section>
-<!--End Service Details Area-->
-
-<!--Start Location Area-->
-<section class="partner-area">
-    <div class="container">
-        <div class="partner-title text-center">
-            <h2><span>Current</span> <br><div class="thm-logo paroller-2">
-        <img src="assets/images/icon/thm-logo-1.png" alt=""width="175" height="50"/>
-            <br>Program Locations</h2>
-        </div>
-        <ul class="partner-box partner-carousel owl-carousel owl-theme owl-dot-style1">
-            <!--Start Single Location Logo Box-->
-            <li class="single-partner-logo-box">
-                <a href="#"><img src="assets/images/brand/brand-logo-1.png" alt="Awesome Image"></a>
-            </li>
-            <!--End Single Location Logo Box-->
-            <!--Start Single Location Logo Box-->
-            <li class="single-partner-logo-box">
-                <a href="#"><img src="assets/images/brand/brand-logo-2.png" alt="Awesome Image"></a>
-            </li>
-            <!--End Single Location Logo Box-->
-            <!--Start Single Location Logo Box-->
-            <li class="single-partner-logo-box">
-                <a href="#"><img src="assets/images/brand/brand-logo-3.jpeg" alt="Awesome Image"></a>
-            </li>
-            <!--End Single Location Logo Box-->
-            <!--Start Single Location Logo Box-->
-            <li class="single-partner-logo-box">
-                <a href="#"><img src="assets/images/brand/brand-logo-4.jpeg" alt="Awesome Image"></a>
-            </li>
-            <!--End Single Location Logo Box-->
-            <!--Start Single Location Logo Box-->
-            <li class="single-partner-logo-box">
-                <a href="#"><img src="assets/images/brand/brand-logo-5.png" alt="Awesome Image"></a>
-            </li>
-            <!--End Single Location Logo Box-->
-            <!--Start Single Location Logo Box-->
-            <li class="single-partner-logo-box">
-                <a href="#"><img src="assets/images/brand/brand-logo-6.png" alt="Awesome Image"></a>
-            </li>
-            <!--End Single Location Logo Box-->
-        </ul>
-    </div>
-</section> 
-<!--End Location Area--> 
-
-
-<!--Start SKill style1 Area-->
-<section class="skill-style1-area pdtop120">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-xl-7">
-                <div class="skill-style1_content-box skill-style2_content-box style3">
-                    <h2>You can check<br> our projects as<br> inspirations.</h2>    
-                    <p>Donec scelerisque dolor id nunc dictum, interdum gravida mauris rhoncus. Aliquam at ultrices nunc. In sem leo, fermentum at lorem in, porta finibus mauris Aliquam consectetur.</p>
-                    <div class="skill-progress-box">
                         <div class="row">
-
                             <div class="col-xl-6">
-                                <div class="progress-levels">
-                                    <!--Skill Box-->
-                                    <div class="progress-box wow">
-                                        <div class="inner count-box">
-                                            <div class="bar">
-                                                <div class="bar-innner">
-                                                    <div class="bar-fill" data-percent="80" title="Book"></div>
-                                                </div>
-                                            </div>
-                                            <div class="skill-percent">
-                                                <div class="title">
-                                                    <h6>Consulting Service </h6>
-                                                </div>
-                                                <div class="counting">
-                                                    <span>/</span> <span class="count-text" data-speed="3000" data-stop="80">0</span>
-                                                    <span class="percent">%</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="portfolio-details-text one">
+                                    <p>Unlock your potential for a rewarding career in the booming renewable industry! Our comprehensive program caters to youth, adults, and participants alike, offering a targeted focus on energy efficiency, air source, geothermal heat pumps, solar, wind, and batteries.
+                                    </p>
+                                    <p><br>Immerse yourself in an unparalleled, hands-on learning experience as you engage with field experts and seasoned professionals. Gain valuable insights and practical skills that will set you apart in this dynamic field.
+                                    </p><br>
+                                        What sets us apart? Certification and Job Placement opportunities await motivated participants. Seize the chance to not only learn but also launch your career in the renewable industry. Sign up now to secure your spot and take the first step towards a brighter, sustainable future!</p>
                                 </div>
                             </div>
-                            <div class="col-xl-6">
-                                <div class="progress-levels style2">
-                                    <!--Skill Box-->
-                                    <div class="progress-box wow">
-                                        <div class="inner count-box">
-                                            <div class="bar">
-                                                <div class="bar-innner">
-                                                    <div class="bar-fill" data-percent="70" title="Book"></div>
-                                                </div>
-                                            </div>
-                                            <div class="skill-percent">
-                                                <div class="title">
-                                                    <h6>Finance Consulting</h6>
-                                                </div>
-                                                <div class="counting">
-                                                    <span>/</span> <span class="count-text" data-speed="3000" data-stop="70">0</span>
-                                                    <span class="percent">%</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <!-- <div class="col-xl-6">
+                                <div class="portfolio-details-text two">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                </div> -->
                             </div>
+                        </div>
+                    
 
-
+                    <div class="xoven-video-gallery-2 portfolio-details-video-gallery" style="background-image: url(assets/images/portfolio/portfolio-details-video-1.jpg);">
+                        <div class="shape"><img src="assets/images/shape/thm-shape-6.png" alt=""></div>
+                        <div class="inner-box">
+                            <h2><span>The Renewable Energy <br>EXPO!</span></h2>
+                            <div class="icon">
+                                <a class="video-popup" title="Xoven Video Gallery" href="/Users/ihome/Downloads/office-interior-of-renewable-energy-company-2022-08-10-07-57-38-utc.mov">
+                                    <span class="flaticon-play-button-2"></span>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    
+                    
+                </div>    
             </div>
-
-            <div class="col-xl-5">
-                <div class="skill-style2_image-box-outer">
-                    <div class="skill-style1_image-box skill-style2_image-box" style="background-image: url(assets/images/resources/skill-style1_image-2.jpg);"></div> 
-                    <div class="title">
-                        <h4>Our Story</h4>
-                    </div>
-                </div>   
-            </div>
-
-        </div>    
+        </div>
     </div>
 </section>
-<!--End SKill style1 Area-->
+<!--End Portfolio Details Area-->
+
+
+
 
 <!--Start Testimonial style1 Area-->
 <section class="testimonial-style1-area"> 
@@ -493,32 +407,12 @@
 
 
 <!--Start footer area -->  
-<footer class="footer-area style2">
+<footer class="footer-area">
+    <div class="footer-area_bg" style="background-image: url(assets/images/parallax-background/footer-area_bg.jpg);"></div>
     <div class="shape">
         <img src="assets/images/shape/thm-shape-4.png" alt="">
     </div>
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="inner">
-                        <div class="text">
-                            <h6>Ready to get started?</h6>
-                            <h2>Get in touch, or create an account.</h2>
-                        </div>
-                        <div class="button-box">
-                            <a class="btn-one" href="about.html">
-                                <div class="border_line"><img src="assets/images/shape/button-border.png" alt=""></div>
-                                <div class="left_round"></div>
-                                <div class="right_round"></div>
-                                <span class="txt">Explore Now<i class="flaticon-plus-1 plusicon"></i></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!--Start Footer-->
     <div class="footer">
         <div class="container">
@@ -529,13 +423,13 @@
                     <div class="single-footer-widget">
                         <div class="our-company-info">
                             <div class="footer-logo">
-                                <a href="index.html"> <img src="assets/images/footer/footer-logo.png" alt=""/></a>
+                                <a href="index.html"> <img src="assets/images/resources/logo.png" alt=""width="175" height=""></a>
                             </div>
                             <div class="text-box">
-                                <p>There are many variations of passages Lorem Ipsum available, the Ipsum has been majority suffered.</p>
+                                <!-- <p>There are many variations of passages Lorem Ipsum available, the Ipsum has been majority suffered.</p> -->
                             </div>
-                            <div class="copyright-text style2">
-                                <p>&copy; Copywright by <a href="#">@Fleming.</a> All Rights Reserved.</p>
+                            <div class="copyright-text">
+                                <p>&copy; Copywright by <a href="#">@Trecc.</a> All Rights Reserved.</p>
                             </div>
                         </div>     
                     </div>
@@ -553,7 +447,7 @@
                             <li><a href="testimonials.html">Testimonials</a></li>    
                             <li><a href="team.html">Team</a></li>    
                             <li><a href="#">Career</a></li>    
-                            <li><a href="contact.html">Contat</a></li>                      
+                            <li><a href="contact.html">Contact</a></li>                      
                         </ul>
                     </div>
                 </div>
@@ -566,9 +460,9 @@
                             <h3>Community</h3>
                         </div>
                         <ul class="footer-widget-links1">
-                            <li><a href="blog.html">Blog</a></li>    
+                            <li><a href="blog.html">Podcast</a></li>    
                             <li><a href="#">Discussions</a></li>    
-                            <li><a href="3">Collections</a></li>    
+                            <li><a href="#">Collections</a></li>    
                             <li><a href="#">Members</a></li>                                                                                      
                         </ul>
                     </div>
@@ -579,47 +473,16 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.7s">
                     <div class="single-footer-widget fixwidth pdtop60">
                         <div class="title">
-                            <h3>Instagram</h3>
+                            <h3>Register Now!</h3>
                         </div>
-                        <ul class="instagram-box">
-                            <li>
-                                <div class="img-holder">
-                                    <img src="assets/images/footer/instagram-1.jpg" alt=""/>
-                                    <div class="overlay">
-                                        <div class="inner">
-                                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>    
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="img-holder">
-                                    <img src="assets/images/footer/instagram-2.jpg" alt=""/>
-                                    <div class="overlay">
-                                        <div class="inner">
-                                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>    
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="img-holder">
-                                    <img src="assets/images/footer/instagram-3.jpg" alt=""/>
-                                    <div class="overlay">
-                                        <div class="inner">
-                                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>    
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-
+                        <div class="title">
+                          <img src="assets/images/footer/qr-register.png" alt="QR Code" width="150" height="150">
+                            <div class="bottom-box">
                         <div class="bottom-box">
                             <ul>
                                 <li><a href="#">Privacy</a></li>
                                 <li><a href="#">Terms & Conditions </a></li>
-                                <li><a href="#">Blog</a></li>
-                            </ul>
+                             </ul>
                         </div>
 
                     </div>
@@ -630,10 +493,9 @@
         </div>
     </div>
     <!--End Footer-->
+
 </footer>   
 <!--End footer area-->
-
-
 
 
 
@@ -642,8 +504,6 @@
 </button> 
 
 </div> 
-
-
 
 
 
@@ -670,6 +530,8 @@
 <script src="assets/js/TweenMax.min.js"></script>
 <script src="assets/js/validation.js"></script>
 <script src="assets/js/wow.js"></script>
+
+<script src="assets/js/bxslider.min.js"></script>
 
 
 
