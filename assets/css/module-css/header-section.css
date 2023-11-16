@@ -87,8 +87,6 @@
     display: none;
 }
 
-
-
 .header-style-one {}
 
 .header-top {
@@ -171,7 +169,7 @@
 }
 
 .header {
-    background: #262b48a8;
+    background: #00000099;
     position: relative;
     display: block;
 }
