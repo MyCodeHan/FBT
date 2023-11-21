@@ -4,14 +4,13 @@
     Team Style1 Area Css
 =============================================
 ***/
+
 .team-style1-area{
-    position: relative;
+    position: fixed;
     display: block;
     background: #f3f3f4;
-    padding: 120px 0 70px;
-}
-.team-style1-area.pdtop0{
-    padding-top: 0;
+    padding: 10px
+    
 }
 
 

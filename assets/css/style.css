@@ -1369,16 +1369,16 @@ select:focus {
 }
 
 .sec-title {
-    position: relative;
+    position: static;
     display: block;
-    margin-top: -3px;
-    padding-bottom: 64px;
+    margin-top: 0px;
+    padding-bottom: 50px;
 }
 
 .sec-title .sub-title {
     position: relative;
     display: block;
-    padding-bottom: 19px;
+    padding-bottom: 10px;
 }
 
 .sec-title .sub-title h3 {
