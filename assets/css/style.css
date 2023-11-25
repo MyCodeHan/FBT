@@ -1434,7 +1434,7 @@ select:focus {
 
 .single-portfolio-style1:hover .img-holder img {
     transform: scale(1.2) rotate(1deg);
-    filter: grayscale(0%);
+    /* filter: grayscale(0%); */
 }
 
 .single-portfolio-style1 .img-holder .overlay-icon {
