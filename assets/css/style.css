@@ -1369,16 +1369,16 @@ select:focus {
 }
 
 .sec-title {
-    position: relative;
+    position: static;
     display: block;
-    margin-top: -3px;
-    padding-bottom: 64px;
+    margin-top: 0px;
+    padding-bottom: 50px;
 }
 
 .sec-title .sub-title {
     position: relative;
     display: block;
-    padding-bottom: 19px;
+    padding-bottom: 10px;
 }
 
 .sec-title .sub-title h3 {
@@ -1434,7 +1434,7 @@ select:focus {
 
 .single-portfolio-style1:hover .img-holder img {
     transform: scale(1.2) rotate(1deg);
-    filter: grayscale(0%);
+    /* filter: grayscale(0%); */
 }
 
 .single-portfolio-style1 .img-holder .overlay-icon {

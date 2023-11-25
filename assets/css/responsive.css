@@ -33,12 +33,12 @@
 /*** About Style1 Area Css ***/  
 
 .about-style1-area {
-    padding: 120px 0 120px;
+    padding: none;
 }
-.about-style1_content-box {
-    padding-top: 22px;
+/* .about-style1_content-box {
+    padding-top: 0px;
     padding-left: 0px;
-}
+} */ */
 
 /*** Video Gallery Area Css ***/  
 .xoven-video-gallery-2 .big-title h2 {
@@ -48,7 +48,7 @@
 /*** SKill Style1 Area Css ***/  
 .skill-style1_image-box {
     right: 0;
-    min-height: 590px;
+    min-height: 100%;
 }
 .skill-style1_image-box-outer .title {
     right: 55px;
@@ -318,7 +318,7 @@
 
 /*** About Style1 Area Css ***/  
 .about-style1-area {
-    padding: 120px 0 120px;
+    padding: 0px;
 }
 .about-style1_content-box {
     padding-top: 22px;
