@@ -1,13 +1,13 @@
 1 - Make social links bigger, higher contrast
 2 - apply darker background overlay
 3 - TRECC INDUSTRY PODCAST - put in a box w/ mic above
+4 - optimization. espcially image resizing
 
 ABOUT US:
 take "your journey" to top of box.
 Create button under photo that says "Register Now"
 Make partner carousel cleaner
 mobile view overlaps text and image
-
 
 --------------
 PORTFOLIO DETAILS - new page

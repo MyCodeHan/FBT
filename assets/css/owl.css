@@ -78,7 +78,7 @@
     opacity: 0; }
   .owl-carousel.owl-refresh .owl-item {
     visibility: hidden; }
-  .owl-carousel.owl-drag .owl-item {
+  /* .owl-carousel.owl-drag .owl-item {
     -ms-touch-action: pan-y;
         touch-action: pan-y;
     -webkit-user-select: none;
@@ -91,11 +91,11 @@
   .owl-carousel.owl-rtl {
     direction: rtl; }
   .owl-carousel.owl-rtl .owl-item {
-    float: right; }
+    float: right; } */
 
 /* No Js */
-.no-js .owl-carousel {
-  display: block; }
+/* .no-js .owl-carousel {
+  display: block; } */
 
 /*
  *  Owl Carousel - Animate Plugin
@@ -104,11 +104,11 @@
   animation-duration: 1000ms;
   animation-fill-mode: both; }
 
-.owl-carousel .owl-animated-in {
+/* .owl-carousel .owl-animated-in {
   z-index: 0; }
 
 .owl-carousel .owl-animated-out {
-  z-index: 1; }
+  z-index: 1; } */
 
 .owl-carousel .fadeOut {
   animation-name: fadeOut; }
@@ -133,13 +133,13 @@
       This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
       calculation of the height of the owl-item that breaks page layouts
      */ }
-  .owl-carousel .owl-item .owl-lazy {
+  /* .owl-carousel .owl-item .owl-lazy {
     opacity: 0;
     transition: opacity 400ms ease; }
   .owl-carousel .owl-item .owl-lazy[src^=""], .owl-carousel .owl-item .owl-lazy:not([src]) {
     max-height: 0; }
   .owl-carousel .owl-item img.owl-lazy {
-    transform-style: preserve-3d; }
+    transform-style: preserve-3d; } */
 
 /*
  *  Owl Carousel - Video Plugin
@@ -149,7 +149,7 @@
   height: 100%;
   background: #000; }
 
-.owl-carousel .owl-video-play-icon {
+/* .owl-carousel .owl-video-play-icon {
   position: absolute;
   height: 80px;
   width: 80px;
@@ -161,7 +161,7 @@
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
-  transition: transform 100ms ease; }
+  transition: transform 100ms ease; } */
 
 .owl-carousel .owl-video-play-icon:hover {
   -ms-transform: scale(1.3, 1.3);
