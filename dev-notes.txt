@@ -5,6 +5,7 @@
 
 Header: 
 Add padding to hero text to center
+.main-slider.style1 = make 100vh, change background image to hero image
 
 ABOUT US:
 take "your journey" to top of box.
