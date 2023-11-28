@@ -1,3 +1,9 @@
+/* #banner {
+    height: 100vh;
+    background-image: url(../../../assets/images/slides/chi-slide-v1-1.png);
+    z-index: 500;
+} */
+
 /*** 
 =====================================================
 	Main Slider style
@@ -74,6 +80,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    height: 100vh;
 }
 
 .main-slider .slide .image-layer {

@@ -3,18 +3,10 @@
 3 - TRECC INDUSTRY PODCAST - put in a box w/ mic above
 4 - optimization. espcially image resizing
 
-Header: 
-Add padding to hero text to center
-.main-slider.style1 = make 100vh, change background image to hero image
-
 ABOUT US:
 take "your journey" to top of box.
-Create button under photo that says "Register Now"
+REMOVED: DONE: Create button under photo that says "Register Now"
 Make partner carousel cleaner
-mobile view overlaps text and image
-
-Programs: Top container anchor should be set to include READ MORE when clicked on the header anchor
-
 
 --------------
 PORTFOLIO DETAILS - new page
