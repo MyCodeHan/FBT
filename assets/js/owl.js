@@ -227,7 +227,7 @@
 		loadingClass: 'owl-loading',
 		rtlClass: 'owl-rtl',
 		responsiveClass: 'owl-responsive',
-		dragClass: 'owl-drag',
+		// dragClass: 'owl-drag',
 		itemClass: 'owl-item',
 		stageClass: 'owl-stage',
 		stageOuterClass: 'owl-stage-outer',
