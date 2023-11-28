@@ -773,10 +773,11 @@
 
     /*** About Style1 Area Css ***/
     .about-style1-area {
-        padding: 120px 0 120px;
+        padding: 40px 20px 100px;
     }
 
     .about-style1_image-box .image-box {
+        /* display: none; */
         float: none;
     }
 
@@ -806,11 +807,8 @@
         padding-top: 26px;
     }
 
-
-
-
     .about-style1_image-box .shape {
-        display: none;
+        /* display: none; */
     }
 
     /*** Video Gallery Area Css ***/
