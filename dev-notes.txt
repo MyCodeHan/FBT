@@ -12,3 +12,5 @@ Make partner carousel cleaner
 PORTFOLIO DETAILS - new page
 Figure out how ot push mov files
 Push .mov section, right of the Expo info 
+
+TEST COMMIT PUSH TO PULL
