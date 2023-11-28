@@ -1,5 +1,5 @@
-1 - Make social links bigger, higher contrast
-2 - apply darker background overlay
+1 - DONE: Make social links bigger, higher contrast
+2 - DONE: apply darker background overlay
 3 - TRECC INDUSTRY PODCAST - put in a box w/ mic above
 4 - optimization. espcially image resizing
 
