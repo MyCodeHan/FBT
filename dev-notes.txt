@@ -5,9 +5,9 @@
 
 ABOUT US:
 take "your journey" to top of box.
-Create button under photo that says "Register Now"
+DONE: Create button under photo that says "Register Now"
 Make partner carousel cleaner
-mobile view overlaps text and image
+DONE: mobile view overlaps text and image
 
 --------------
 PORTFOLIO DETAILS - new page
