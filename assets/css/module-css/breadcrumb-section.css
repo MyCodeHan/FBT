@@ -24,7 +24,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     z-index: 1;
 }
 .breadcrumb-area-bg:before{
@@ -33,7 +33,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: #212121;
+    background: #272727;
     opacity: 0.70;
     content: "";
     z-index: -1;
