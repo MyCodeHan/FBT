@@ -28,7 +28,7 @@
 .slider-contact-info {
     position: absolute;
     left: 70px;
-    bottom: 120px;
+    bottom: 40px;
     display: flex;
     align-items: center;
     z-index: 10;
@@ -352,7 +352,7 @@
 
 
 
-.main-slider .banner-carousel.owl-carousel .owl-dots {
+/* .main-slider .banner-carousel.owl-carousel .owl-dots {
     position: absolute;
     right: 0;
     bottom: -55px;
@@ -366,7 +366,7 @@
     background: rgba(255, 255, 255, 0.10);
     border-top-left-radius: 55px;
     border-bottom-left-radius: 55px;
-}
+} */
 
 .main-slider .banner-carousel.owl-carousel button.owl-dot {
     position: relative;
@@ -378,7 +378,7 @@
     z-index: 1;
 }
 
-.main-slider .banner-carousel.owl-carousel button.owl-dot:before {
+/* .main-slider .banner-carousel.owl-carousel button.owl-dot:before {
     position: absolute;
     top: 0;
     left: 0;
@@ -394,12 +394,12 @@
     transition: all 100ms linear;
     transition-delay: 0.1s;
     font-family: var(--thm-oswald-font);
-}
+} */
 
-.main-slider .banner-carousel.owl-carousel button.owl-dot.active:before {
+/* .main-slider .banner-carousel.owl-carousel button.owl-dot.active:before {
     color: var(--thm-base);
     font-size: 32px;
-}
+} */
 
 
 

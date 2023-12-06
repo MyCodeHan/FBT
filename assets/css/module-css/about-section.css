@@ -15,6 +15,12 @@
     display: block;
     max-width: 570px;
     width: 100%;
+    top: 15%;
+}
+@media screen and (max-width: 1024px) {
+    .about-style1_image-box {
+        top: 0;
+    }
 }
 
 .about-style1_image-box .shape {
@@ -240,3 +246,4 @@
     float: right;
     margin-right: 65px;
 }
+
