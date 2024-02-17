@@ -1,0 +1,28 @@
+{
+  "contactInformation": {
+    "firstName": "string",
+    "lastName": "string",
+    "phoneNumber": "string",
+    "email": "string"
+  },
+  "location": "Primo, Lindblom, South Shore, Perspectives, Other",
+  "treccIndustryInterest": "Technology, Renewable Energy, Career Readiness, Civic Leadership",
+  "children": {
+    "total": "0, 1, 2, 3, 4, 5+",
+    "girls": "0, 1, 2, 3, 4, 5+",
+    "boys": "0, 1, 2, 3, 4, 5+"
+  },
+  "mailingAddress": {
+    "hasMailingAddress": "Yes or No",
+    "address": {
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "cityTown": "string",
+      "stateRegionProvince": "string",
+      "zipPostCode": "string",
+      "country": "string"
+    }
+  },
+  "birthday": "mm/dd/yyyy",
+  "ethnicity": "American Indian or Alaskan Native, Asian, Black or African American, Native Hawaiian or Pacific Islander, White or Caucasian, Hispanic or Latino, Other"
+}
