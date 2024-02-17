@@ -1181,12 +1181,7 @@
         width: 300px;
         margin: 0 auto;
     }
-    @media screen and (min-width: 1024px)  {
-        .about-style1_image-box {
-            top: 0;
-        }
-       
-      }
+
 
     /*** Team Style1 Area h4 Css ***/
     .team-style1-area.home3 {
