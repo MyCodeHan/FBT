@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8"> 
+	<meta charset="UTF-8">
 	<title>TRECC Energy_</title>
 
 	<!-- responsive meta -->
@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="assets/css/rtl.css">
 	<link rel="stylesheet" href="assets/css/scrollbar.css">
 
-	<link rel="stylesheet" href="assets/css/bxslider.css">
 
     <!-- Module css -->
     <link rel="stylesheet" href="assets/css/module-css/header-section.css">
@@ -47,23 +46,34 @@
     <link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/resources/logo.png">
     <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
 
     <!-- Fixing Internet Explorer-->
     <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="assets/js/html5shiv.js"></script>
     <![endif]-->
+
+    <style>
+        /* CSS to style the video container */
+        .video-container {
+            max-width: 100%;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        /* CSS to style the video itself */
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
     
 </head>
-
 <body>
-
 <div class="boxed_wrapper ltr">
-
- 
 
 <!-- page-direction -->
 <div class="page_direction">
@@ -79,7 +89,20 @@
         <div class="container">
             <div class="outer-box clearfix">
                 <div class="header-top_right pull-right">
-
+                    <div class="header-social-link-1">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="https://www.instagram.com/trecc_life/" target="_blank"><i class="fa fa-instagram" aria-hidden="false"></i></a> 
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCcsx-_SVCEy64LU5OL4JFpA" target="_blank"><i class="fa fa-utube"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/people/TRECC/61553909627265/" target="_blank"><i class="fab fa fa-instagram-square" aria-hidden="true"></i></a>                             
+                            </li>
+                                                    
+                            </ul>
+                    </div>
                 </div>
 
             </div>
@@ -88,11 +111,11 @@
 
     <!--Start Header--> 
     <div class="header">
-        <div class="container">
+        <div class="auto-container">
             <div class="outer-box">
                 <div class="header-left">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/images/resources/logo.png" alt="Awesome Logo" title=""width="150" height="50"></a>
+                        <a href="index.html#home"><img src="assets/images/resources/logo.png" alt="Awesome Logo" title=""width="150" height="50"></a>
                     </div>
                 </div>
 
@@ -110,24 +133,26 @@
                         <nav class="main-menu style1 navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix scroll-nav">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="index.html#about"target="_blank">About Us</a></li>
+                                    <li><a href="index.html#home"target="_blank">Home</a></li>
                                     <li><a href="index.html#programs"target="_blank">Programs</a></li>
+                                    <li><a href="index.html#events"target="_blank">Locations</a></li>
                                     <li><a href="index.html#podcast"target="_blank">Podcast</a></li>
+                                    <li><a href="index.html#about"target="_blank">About Us</a></li>
                                     <li><a href="index.html#contact"target="_blank">Contact Us</a></li>
                                     </li>
                                 </ul>
                             </div>
                         </nav>                        
-                        <!-- Main Menu End-->
+                        <!-- Main Menu End-->                        
+                    </div> <div class="header-right_buttom scroll-nav ">
+                        <div class="btns-box">
+                            <div data-tf-live="01HKBBCVNDBQJETTKM43NMHZZK"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                        </div>
                     </div> 
 
                     <div class="header-right_buttom scroll-nav ">
                         <div class="btns-box">
-                            <a class="btn-one" href="#podcast">
-                                 
-                                <span class="txt">Events Calendar<i class="flaticon-plus-1 plusicon" ></i></span>
-                            </a>
+                            <div data-tf-live="01HKBBCVNDBQJETTKM43NMHZZK"></div><script src="//embed.typeform.com/next/embed.js"></script>
                         </div>
                     </div> 
 
@@ -143,7 +168,7 @@
             <div class="clearfix">
                 <!--Logo-->
                 <div class="logo float-left">
-                    <a href="index.html" class="img-responsive"><img src="assets/images/resources/logo.png" alt="" title=""width="75" height=""></a>
+                    <a href="index.html#home" class="img-responsive"><img src="assets/images/resources/logo.png" alt="" title=""width="80" height=""></a>
                 </div>
                 <!--Right Col-->
                 <div class="right-col float-right">
@@ -167,52 +192,76 @@
             <!--Social Links-->
             <div class="social-links">
                 <ul class="clearfix">
-                    <li><a href="#"><span class="fab fa fa-instagram-square"></span></a></li>
-                    <li><a href="#"><span class="fab fa fa-utube-square"></span></a></li>
-                    <li><a href="#"><span class="fab fa fa-linkedin"></span></a></li>
+                    <li>
+                        <a href="https://www.instagram.com/trecc_life/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCcsx-_SVCEy64LU5OL4JFpA"target="_blank"><i class="fa fa-utube" aria-hidden="true"></i></a> 
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/people/TRECC/61553909627265/" target="_blank"><i class="fab fa fa-instagram-square" aria-hidden="true"></i></a>                             
+                    </li>     
                 </ul>
             </div>
         </nav>
     </div>
     <!-- End Mobile Menu --> 
+
 </header>
 
 
 <!--Start breadcrumb area-->     
-<section class="breadcrumb-area">
-    <div class="breadcrumb-area-bg" style="background-image: url(assets/images/breadcrumb/energy-breadcrumb-1.jpg);"></div>
+<!-- <section class="breadcrumb-area"> -->
+    <!-- <div class="breadcrumb-area-bg" style="background-image: url(assets/images/breadcrumb/tech-breadcrumb-1.jpg);"></div> -->
     <div class="breadcrumb-social-link">
         <ul class="clearfix">
             <li class="wow slideInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                <a href="https://www.instagram.com/trecc_life/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
             </li>
-            <li class="wow slideInUp" data-wow-delay="700ms" data-wow-duration="2000ms">
-                <a href="#"><i class="fa fa-utube" aria-hidden="true"></i></a> 
+             <li class="wow slideInUp" data-wow-delay="700ms" data-wow-duration="2000ms">
+                <a href="https://www.youtube.com/channel/UCcsx-_SVCEy64LU5OL4JFpA"target="_blank"><i class="fa fa-utube" aria-hidden="true"></i></a> 
             </li>
-            <li class="wow slideInUp" data-wow-delay="900ms" data-wow-duration="1000ms">
-                <a href="#"><i class="fab fa fa-linkedin" aria-hidden="true"></i></a>
+            <li class="wow slideInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
+                <a href="https://www.facebook.com/people/TRECC/61553909627265/" target="_blank"><i class="fab fa fa-instagram-square" aria-hidden="true"></i></a>
             </li>
+            <li class="wow slideInUp" data-wow-delay="900ms" data-wow-duration="2000ms"> 
         </ul>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="inner-content paroller text-center">
                     <div class="title">
-                        <h2>Renewable Energy <br>Workforce Development </h2>
+                        <h2>Civic Engagement</h2>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    // add re1.png and re2.png
-</section>
-<div class=""><img src="assets/images/breadcrumb/re1.png" alt=""></div>
-<div class=""><img src="assets/images/breadcrumb/re2.png" alt=""></div>
+</section> -->
 <!--End breadcrumb area-->
 
-
+<!-- <div class="">
+    <embed src="assets/images/breadcrumb/Career_.pdf" type="application/pdf" width="100%" height="600px" />
+</div> -->
+<ul>
+    <li>
+        <div><img src="assets/images/breadcrumb/re1.png" alt=""></div>
+    </li>
+    <li>
+        <!-- Create a video container -->
+        <div class="video-container">
+            <video controls autoplay loop>
+                <source src="assets/images/vid/WhatisRenewableEnergy.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </li>
+    <li>
+        <div><img src="assets/images/breadcrumb/re2.png" alt=""></div>
+    </li>
+</ul>
 <!--Start Portfolio Details Area-->
 <!-- <section class="portfolio-details-area">
     <div class="container">
@@ -227,21 +276,21 @@
                                 <li>
                                     <div class="single-box clearfix">
                                         <div class="img-holder">
-                                            <img src="assets/images/portfolio/energy-details-1.png" alt="Awesome Image">
+                                            <img src="assets/images/portfolio/civics-details-1.png" alt="Awesome Image">
                                         </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="single-box clearfix">
                                         <div class="img-holder">
-                                            <img src="assets/images/portfolio/energy-details-2.png" alt="Awesome Image">
+                                            <img src="assets/images/portfolio/civics-details-2.png" alt="Awesome Image">
                                         </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="single-box clearfix">
                                         <div class="img-holder">
-                                            <img src="assets/images/portfolio/energy-details-3.png" alt="Awesome Image">
+                                            <img src="assets/images/portfolio/civics-details-3.png" alt="Awesome Image">
                                         </div>
                                     </div>
                                 </li>
@@ -252,38 +301,36 @@
                                 <li>
                                     <a class="active" data-slide-index="0" href="#">
                                         <div class="thumb-image">
-                                            <img src="assets/images/portfolio/energy-1-thumb.png" alt="Awesome Thumb Image">    
+                                            <img src="assets/images/portfolio/civics-1-thumb.png" alt="Awesome Thumb Image">    
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a data-slide-index="1" href="#">
                                         <div class="thumb-image">
-                                            <img src="assets/images/portfolio/energy-2-thumb.png" alt="Awesome Thumb Image">   
+                                            <img src="assets/images/portfolio/civics-2-thumb.png" alt="Awesome Thumb Image">   
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a data-slide-index="2" href="#">
                                         <div class="thumb-image">
-                                            <img src="assets/images/portfolio/energy-3-thumb.png" alt="Awesome Thumb Image">    
+                                            <img src="assets/images/portfolio/civics-3-thumb.png" alt="Awesome Thumb Image">    
                                         </div>    
                                     </a>
                                 </li>
                                 
                             </ul>
                         </div>    
-                    </div>
+                    </div> -->
                     
 
-                    <div class="portfolio-details-text-box">
+                    <!-- <div class="portfolio-details-text-box">
                         <div class="top-title">
                             <h5><button data-tf-popup="JWaYycRu" data-tf-opacity="100" data-tf-size="100" data-tf-iframe-props="title=FBT General Registration" data-tf-transitive-search-params data-tf-medium="snippet" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#FBCE37;color:#000;font-size:16px;border-radius:20px;padding:0 26px;font-weight:bold;height:40px;cursor:pointer;line-height:40px;text-align:center;margin:0;text-decoration:none;">*Register Here*</button><script src="//embed.typeform.com/next/embed.js"></script></h5>
-                            <h2>Renewable Energy <br> Workforce Development</h2>
-                            
-                        </div>
-                        
-                        <div class="row">
+                            <h2>Civic Engagement</h2>                            
+                        </div> -->
+                        <!-- <div class="row">
                             <div class="col-xl-6">
                                 <div class="portfolio-details-text one">
                                     <p>Unlock your potential for a rewarding career in the booming renewable industry! Our comprehensive program caters to youth, adults, and participants alike, offering a targeted focus on energy efficiency, air source, geothermal heat pumps, solar, wind, and batteries.
@@ -292,23 +339,18 @@
                                     </p><br>
                                         What sets us apart? Certification and Job Placement opportunities await motivated participants. Seize the chance to not only learn but also launch your career in the renewable industry. Sign up now to secure your spot and take the first step towards a brighter, sustainable future!</p>
                                 </div>
-                            </div> -->
-                            <!-- <div class="col-xl-6">
+                            </div>
+                            <div class="col-xl-6">
                                 <div class="portfolio-details-text two">
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                </div> -->
-                            </div>
-                        </div>
-                    
-
- 
-                    
-                    
+                                </div> 
+                            </div> -->
+                        </div>                   
                 </div>    
             </div>
         </div>
     </div>
-   </section> 
+</section>
 <!--End Portfolio Details Area-->
 
 <!--Start footer area -->  
@@ -348,10 +390,9 @@
                             <h3>Site Map</h3>
                         </div>
                         <ul class="footer-widget-links1">
-                            <li><a href="index.html">Home</a></li>    
+                            <li><a href="index.html#home">Home</a></li>    
                             <li><a href="testimonials.html">Testimonials</a></li>    
-                            <li><a href="team.html">Team</a></li>    
-                            <li><a href="#">Career</a></li>    
+                            <li><a href="team.html">Team</a></li>  
                             <li><a href="contact.html">Contact</a></li>                      
                         </ul>
                     </div>
@@ -365,9 +406,9 @@
                             <h3>Community</h3>
                         </div>
                         <ul class="footer-widget-links1">
-                            <li><a href="blog.html">Podcast Archives</a></li>    
+                            <li><a href="podcasts.html">Podcast Archives</a></li>      
                             <li><a href="#">Testimonials</a></li>    
-                            <li><a href="#">Careers</a></li>    
+                            
                             <li><a href="https://form.jotform.com/233193626054152">Media Release Form</a></li>                                                                                      
                         </ul>
                     </div>

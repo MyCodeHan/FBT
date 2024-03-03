@@ -1383,7 +1383,7 @@ select:focus {
 
 .sec-title .sub-title h3 {
     color: var(--thm-base);
-    font-size: 18px;
+    font-size: 30px;
     line-height: 1.2em;
     font-weight: 400;
     text-transform: uppercase;
