@@ -1,0 +1,16 @@
+name: Main Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy_main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Deploy to main
+        run: |
+          ssh ${{ secrets.CPANEL_USERNAME }}@${{ secrets.CPANEL_HOST }} 'cd /home/${{ secrets.CPANEL_USERNAME }}/public_html/ && git pull origin main'
