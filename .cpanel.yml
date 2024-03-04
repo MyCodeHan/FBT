@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/your_cpanel_username/public_html/dev
+    - export DEPLOYPATH=/home/$CPANEL_USERNAME/public_html/dev
     - /bin/git pull origin dev --force
-    - export DEPLOYPATH=/home/your_cpanel_username/public_html
+    - export DEPLOYPATH=/home/$CPANEL_USERNAME/public_html
     - /bin/git pull origin main --force
