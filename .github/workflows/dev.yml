@@ -1,0 +1,16 @@
+name: Dev Deployment
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy_dev:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Deploy to dev
+        run: |
+          ssh ${{ secrets.CPANEL_USERNAME }}@${{ secrets.CPANEL_HOST }} 'cd /home/${{ secrets.CPANEL_USERNAME }}/public_html/dev && git pull origin dev'
