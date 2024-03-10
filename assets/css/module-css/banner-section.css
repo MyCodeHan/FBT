@@ -27,31 +27,40 @@
 
 .slider-contact-info {
     position: absolute;
-    left: 70px;
-    bottom: 120px;
     display: flex;
-    align-items: center;
     z-index: 10;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+    padding: 0px;
+    border-radius: 5px;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    transition: background 0.3s ease;
+    word-break: normal;
 }
 
 .slider-contact-info .icon {
-    width: 80px;
+    width: 40px;
+    height: auto;
 }
 
-.slider-contact-info .icon span:before {}
-
 .slider-contact-info .title {
-    position: relative;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1rem;
 }
 
 .slider-contact-info .title h5 {
-    color: #ffffff;
-    font-size: 22px;
-    line-height: 25px;
+    color: black;
+    font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 0 0 11px;
+    text-align: center;
 }
 
 .slider-contact-info .title h3 {
@@ -69,7 +78,6 @@
 .slider-contact-info .title h3 a:hover {
     color: var(--thm-base);
 }
-
 
 .main-slider .slide {
     position: relative;
